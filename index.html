@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ista ZenMag</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <link rel="shortcut icon" type="x-icon" href="logo.png">
+  <link rel="stylesheet" href="main.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+
+
+  <div id="cursor"></div>
+
+
+  <header class="header">
+    <button class="scroll" id="scrollBtn"><span><i class='bx bxs-to-top' style='color:#fffefe'></i></span></button>
+    <img src="burgermenu.jpg" alt="burger_menu" width="60px" class="toggle-navbar-btn" id="iconburg">
+    <img src="sun.png" id="icon">
+
+
+
+
+    <nav class="navbar" id="navbaar">
+      <a href="index.html" class="active" id="txt1">Home</a>
+      <a href="#" id="txt2">About</a>
+      <a href="#" id="txt5">Contact</a>
+    </nav>
+  </header>
+
+  <section class="home">
+    <div class="home-content">
+      <h1 class="myname" id="hiddenName">Welcome to ISTA ZenMag</h1>
+      <h3 id="hiddentext1">Share with us your projects</h3>
+      <p id="hiddentext2" class="dess"> Click the button and share with us your work & opinion . That make ISTA ZENATA
+        proud of you !!</p>
+      <div class="btn-box" id="hiddenBtns">
+        <a href="#"> Upload </a>
+        <a href="#">Contact us</a>
+      </div>
+      <div class="home-sci" id="hiddenicons">
+        <div class="centred-icons">
+          <a href="#"><i class='bx bxl-facebook'></i></a>
+          <a href="#"><i class='bx bxl-instagram'></i></a>
+          <a href="#"><i class='bx bxl-google'></i></a>
+        </div>
+      </div>
+    </div>
+
+    <img src="ofppt.png" class="image" id="hiddenImg">
+
+  </section>
+
+
+
+  <br><br>
+  <footer class="footer">
+    <div class="foote">
+      <h5 class="lasttext">2024 ISTA ZENATA MAGASINE . All Rights Reserved.</h5>
+    </div>
+  </footer>
+
+  <img src="menuberg.png" class="img3" id="img3">
+
+
+
+  <script src="mian.js"></script>
+
+
+
+
+  <script>
+    var icon = document.getElementById("icon");
+    var burg = document.getElementById("iconburg");
+    var xicon = document.getElementById("xicon");
+
+    icon.onclick = function () {
+      document.body.classList.toggle("white-theme");
+      if (document.body.classList.contains("white-theme")) {
+        icon.src = "moon.png";
+      } else {
+        icon.src = "sun.png";
+      }
+
+      if (document.body.classList.contains("white-theme")) {
+        burg.src = "menuberg.png";
+      } else {
+        burg.src = "burgermenu.jpg";
+      }
+
+
+      if (document.body.classList.contains("white-theme")) {
+        xicon.style = "color:#000";
+      } else {
+        xicon.style = "color:#fff";
+      }
+
+      if (document.body.classList.contains("white-theme")) {
+        xiconn.style = "color:#000";
+      } else {
+        xiconn.style = "color:#fff";
+      }
+    }
+
+
+
+
+
+
+    let docTitle = document.title;
+    window.addEventListener("blur", () => {
+      document.title = "Come back !";
+    })
+    window.addEventListener("focus", () => {
+      document.title = docTitle;
+    })
+  </script>
+
+</body>
+
+</html>
