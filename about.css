@@ -57,6 +57,19 @@ body{
     font-weight: 700;
     line-height: 1.2;
 }
+
+::-webkit-scrollbar {
+    width: 20px; 
+  }
+
+  ::-webkit-scrollbar-track {
+    background: var(--secondary-color); 
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #028cc3; 
+  }
+
 .home-content .btn-box {
     display: flex;
     justify-content: space-between;
