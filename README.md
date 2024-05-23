@@ -21,6 +21,6 @@ Nous sommes ravis que vous souhaitiez contribuer à ce projet ! Voici quelques f
 Ajoutez vos créations : si vous êtes stagiaire de l'ISTA Zenata, n'hésitez pas à ajouter vos rédactions, articles, poèmes, dessins, etc.
 Merci ! :heart:
 
-Developpeur : Najib Almoubaraki .
+Developpeur : Najib Almoubaraki :computer:
 
 Bonne découverte ! :thought_balloon:
