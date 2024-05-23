@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background: var(--secondary-color);
+    color: #ededed;
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo{
+    font-size: 25px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.navbar a {
+    font-size: 18px;
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+}
+
+.navbar a:hover,
+.navbar a.active{
+    color: #00abf0;
+}
+.home-content{
+    max-width: 600px;
+}
+.home-content h1{
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+.home-content .btn-box {
+    display: flex;
+    justify-content: space-between;
+    width: 345px;
+    height: 50px;
+}
+.sec1{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+.home{
+    margin-top: 100px;
+}
+.toggle-navbar-btn{
+    display: none;
+}
+.btn-box a:hover {
+    color: #081b29;
+    box-shadow: 0 0 10px #00abf0;
+    background: #60ace3;
+}
+
+body {
+    overflow-y: hidden;
+}
+
+::selection {
+    background-color: #00abf0;
+    color: #fff;
+}
+.py{
+    color: #4fb1d7;
+}
+
+#icon{
+    width: 50px;
+    cursor: pointer;
+}
+
+:root{
+    --primary-color:#edf2fc;
+    --secondary-color: #081b29; 
+}
+
+
+.white-theme{
+    --primary-color:#081b29;
+    --secondary-color: #edf2fc;
+}
+/* Media Query for Small Screens */
+@media screen and (max-width: 768px) {
+    /* Adjustments for smaller screens */
+    .header {
+        flex-direction: column;
+        align-items: center;
+        background: var(--secondary-color);
+    }
+    .webdev{
+        height: 500px;
+        margin-left: 10px;
+    }
+    .webdevv{
+        height: 500px;
+        margin-right: 10px;
+    }
+    .logo {
+        margin-bottom: 15px; 
+    }
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+        display: none;
+    }
+    .navbar a {
+        margin: 10px 0;
+        display: block;
+    }
+    .toggle-navbar-btn {
+        display: flex;
+        cursor: pointer;
+    }
+    .image {
+        padding-left: 0;
+        width: 80%;
+        padding-top: 70px;
+        margin-right: 0;
+    }
+    .home-sci {
+        margin-bottom: 190px;
+
+    }
+    .show-navbar .navbar {
+        display: flex; 
+    }
+}
