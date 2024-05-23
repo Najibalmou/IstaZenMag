@@ -1,4 +1,4 @@
-Bienvenue sur le dépôt du site web de la banque des ressources créatives de l'ISTA Zenata !
+:round_pushpin: Bienvenue sur le dépôt du site web de la banque des ressources créatives de l'ISTA Zenata !
 
 Ce projet a pour but de créer un espace en ligne où les stagiaires de l'ISTA Zenata peuvent partager et mettre en valeur leurs créations : rédactions, articles, poèmes, dessins, et bien plus encore !
 
