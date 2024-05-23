@@ -32,6 +32,10 @@ body{
     text-align: center;
     color: var(--primary-color);
 }
+.about{
+    text-align: center;
+    color: var(--primary-color);
+}
 .navbar a {
     font-size: 18px;
     color: var(--primary-color);
