@@ -10,17 +10,17 @@ Fournir un espace de liberté d'expression et de créativité pour les stagiaire
 
 - Fonctionnalités :
 
-* Ajout de contenu : les stagiaires peuvent ajouter leurs créations sous forme de texte, image, ou autre média.
-* Gestion des catégories : les contenus sont organisés par catégorie (rédactions, articles, poèmes, dessins, etc.) pour faciliter la recherche et la découverte.
-* Affichage des contenus : les contenus sont affichés de manière attractive et facile à consulter.
-* Recherche et filtrage : les utilisateurs peuvent rechercher et filtrer les contenus par auteur, catégorie, ou mots-clés.
+:point_right: Ajout de contenu : les stagiaires peuvent ajouter leurs créations sous forme de texte, image, ou autre média.
+:point_right: Gestion des catégories : les contenus sont organisés par catégorie (rédactions, articles, poèmes, dessins, etc.) pour faciliter la recherche et la découverte.
+:point_right: Affichage des contenus : les contenus sont affichés de manière attractive et facile à consulter.
+:point_right: Recherche et filtrage : les utilisateurs peuvent rechercher et filtrer les contenus par auteur, catégorie, ou mots-clés.
 
 - Contribution
 
 Nous sommes ravis que vous souhaitiez contribuer à ce projet ! Voici quelques façons de le faire :
 Ajoutez vos créations : si vous êtes stagiaire de l'ISTA Zenata, n'hésitez pas à ajouter vos rédactions, articles, poèmes, dessins, etc.
-Merci !
+Merci ! :heart:
 
 Developpeur : Najib Almoubaraki .
 
-Bonne découverte !
+Bonne découverte ! :thought_balloon:
